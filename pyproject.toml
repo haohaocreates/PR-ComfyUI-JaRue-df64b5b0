@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-jarue"
+description = "A collection of nodes powering a tensor oracle on a home network with automation"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["youtube-transcript-api", "os", "comfy", "folder_paths", "base64", "io", "PIL", "numpy", "torch", "textwrap"]
+
+[project.urls]
+Repository = "https://github.com/jtrue/ComfyUI-JaRue"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-JaRue"
+Icon = ""
